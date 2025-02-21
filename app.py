@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 CORS(app)
 
-# Loadd the machine learning model if it exists
+# Loadd the macchine learning model if it exists
 if os.path.exists('model.pkl'):
     model = joblib.load('model.pkl')
 else:
