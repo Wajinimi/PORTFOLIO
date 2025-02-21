@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import Lasso
 import joblib
 
-# Load and clean the dataset
+# Load and cclean the dataset
 file_path = "C:\\Users\\WAJI\\portfolio\\backendFlask\\house_price_dataset1.csv"
 data = pd.read_csv(file_path).dropna(subset=["House_Price"])
 
